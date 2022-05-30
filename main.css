@@ -119,3 +119,26 @@ img{
     padding-top: 50px;
     padding-left: 300px;
 }
+
+
+.homepageimg {
+    margin-left:2%;
+   float:left; 
+   background-color: white;
+   } 
+   
+   .home-container {
+       width:100%;
+       padding-top: 50px;
+       padding-bottom: 300px;
+       
+   }
+
+   .intro-text{
+       font-size: 25px;
+       font-family: 'Times New Roman', Times, serif;
+       padding-top: 100px;
+       color: #d43131;
+       text-decoration: wavy;
+       font-weight: bold;
+   }

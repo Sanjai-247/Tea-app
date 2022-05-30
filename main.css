@@ -1,0 +1,99 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration:none;
+    color: #d43131;
+}
+
+img{
+    border: none;
+}
+
+.header-container{
+    flex: 5;
+    height: 120px;
+    width: 100vw;
+    font-weight: bold;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    position:sticky;
+    top: 0;
+    z-index: 999;
+    border-bottom: 1px #d43131 solid;
+}
+
+.header-content{
+    flex: 7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.main-content{
+    margin-bottom: 400px;
+}
+
+.footer-container{
+    width: 100vw;
+    height: 350px;
+    background-color: #d43131;
+    color: rgba(240, 255, 255, 0.897);
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-logo{
+    padding: 20px;
+}
+
+.footer-description{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    font-weight: 600;
+    font-style: italic;
+    padding: 20px;
+}
+
+.company-address{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding: 10px;
+
+}
+
+.phone,.fax,.location{
+    padding: 5px;
+
+}
+
+.copyrights{
+    padding-top: 20px;
+}
+
+.our-services{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    padding-left: 1000px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+}
+
+.delivery-text{
+    padding-top: 5px;
+}
+
+.delivery-logo{
+    padding-left: 10px;
+}
